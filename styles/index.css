@@ -1,0 +1,19 @@
+@import url(./reset.css);
+@import url(./variables/variables.css);
+@import url(../styles/header/header.css);
+@import url(./slaider/slaider.css);
+@import url(./solution/solution.css);
+@import url(./efective/efective.css);
+@import url(./communication/communication.css);
+@import url(./menu/menu.css);
+@import url(./footer/footer.css);
+.body{
+    color: var(--text-color);
+    background: linear-gradient(to top, #252424 0%, #272828 100%)no-repeat;
+}
+.wrapper{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+   padding: 0 20px;
+}

@@ -1,0 +1,45 @@
+.solution__conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.solution__item {
+  margin-top: 30px;
+  max-width: 200px;
+  width: 100%;
+}
+.solution__title {
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.solution__img {
+  margin-right: 20px;
+  max-width: 70px;
+  width: 100%;
+  object-fit: cover;
+  float: left;
+  position: relative;
+  top: 8px;
+}
+.solution__text {
+  opacity: 0.5;
+  font-size: 18px;
+  margin: 0;
+  text-align: unset;
+  text-overflow: ellipsis;
+}
+.solution__btn {
+  margin-top: 20px;
+  padding: 0 5px;
+  text-align: start;
+  background-color: var(--second-color-btn);
+  height: 35px;
+  max-width: 110px;
+  width: 100%;
+  background-image: url(../../images/arow2.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 95% center;
+}

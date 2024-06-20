@@ -1,0 +1,70 @@
+.header {
+  margin: 40px 0;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.header__title {
+  font-size: 28px;
+}
+.header__title a {
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  gap: 10px;
+}
+.header__span-logo {
+  font-size: 12px;
+  opacity: 0.3;
+}
+.header__input {
+  background: transparent;
+  font-size: 12px;
+  padding-left: 20px;
+}
+.header__wraper-input {
+  background: var(--bacgrount-color);
+  position: relative;
+  padding: 10px;
+}
+.header__img-arrow {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+  top: 10px;
+}
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__list-item {
+  background-color: var(--first-color-btn);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.header__list-item:hover {
+  opacity: 0.3;
+}
+.header__list-item:nth-child(2) {
+  background-color: var(--second-color-btn);
+}
+.header__list-item:nth-child(3) {
+  background-color: var(--third-color-btn);
+}
+.header__list-item:nth-child(4) {
+  background-color: var(--fourth-color-btn);
+}
+.header__list-item:nth-child(5) {
+  background-color: var(--fifth-color-btn);
+}
+.header__nav{
+    margin-top: 20px;
+}
